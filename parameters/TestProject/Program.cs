@@ -12,25 +12,39 @@
 //}
 
 
-int[] array = {1, 2, 3, 4, 5};
+//int[] array = {1, 2, 3, 4, 5};
 
-PrintArray(array);
-Clear(array);
-PrintArray(array);
+//PrintArray(array);
+//Clear(array);
+//PrintArray(array);
 
-void PrintArray(int[] array) 
-{
-    foreach (int a in array) 
-    {
-        Console.Write($"{a} ");
-    }
-    Console.WriteLine();
-}
+//void PrintArray(int[] array) 
+//{
+    // Print each element of the array
+    //foreach (int a in array) 
+    //{
+    //    Console.Write($"{a} ");
+    //}
+    //Console.WriteLine();
+//}
 
-void Clear(int[] array) 
-{
-    for (int i = 0; i < array.Length; i++) 
-    {
-        array[i] = 0;
-    }
-}
+//void Clear(int[] array) 
+//{
+//    // Clear the array
+//    for (int i = 0; i < array.Length; i++) 
+   // {
+     //   array[i] = 0;
+    // }
+//}
+
+//string status = "Healthy";
+
+//Console.WriteLine($"Start: {status}");
+//SetHealth(status, false);
+//Console.WriteLine($"End: {status}");
+
+//void SetHealth(string status, bool isHealthy) 
+//{
+    //status = (isHealthy ? "Healthy" : "Unhealthy");
+  //  Console.WriteLine($"Middle: {status}");
+//}
